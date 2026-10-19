@@ -52,26 +52,32 @@ main {
 
 /* the styles for section*/
 section {
+    box-sizing: border-box;
+    border:none;
     width: 67%;
-    min-height:300px;
+    min-height:600px;
     float: left;
     background-color: rgb(143, 112, 159);
-   /* padding: 5px  20px  5px  20px; */
+    padding: 5px  20px  5px  20px; 
 }
 
 div {
+    box-sizing: border-box;
+    border:0px;
     width: 100%;
     float: left;
     background-color: lightslategray;
- /*   padding: 5px  20px  5px  20px; */
+    padding: 5px  0px  5px  20px; 
 }
 
 aside {
+    box-sizing: border-box;
+    border:none;
     width: 33%;
-    min-height:300px;
+    min-height:600px;
     float: right;
     background-color: olivedrab;
-  /*  padding: 5px  30px  5px  20px;  */
+    padding: 5px  30px  5px  20px; 
 }
 
 /* the styles for footer*/
