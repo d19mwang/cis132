@@ -1,33 +1,29 @@
 /* the styles for the elements */
 body {
-	max-width: 100%;
+	max-width: 80%;
     margin: auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:white;
+    font-size: 100%;
+    background-color:rgb(252, 248, 255);
 }
 
 /* the styles for the header */
 header {
     text-align: center;
+    background-color: rgb(47, 6, 67);
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
-
-header img {
-    width: 100%;
-    height:auto;
-    display:block;
-    object-fit: contain;
-}
-
 header h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 400%;
-    color:darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    color:white;
 }
 
-header h2 {
-        font-size: 150%;
-        color:darkolivegreen;
+main h2 {
+    font-size: 150%;
+    color: rgb(47, 6, 67);
 }
 
 /* the styles for the nav menu*/
@@ -36,9 +32,11 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(67, 113, 113);
+    background-color: rgb(73, 7, 105);
 
-    li {float: left;}
+    li {
+        float: left;
+    }
 
     li a {
         display: block;
@@ -49,40 +47,41 @@ nav ul {
     }
 }
 
-/* the styles for the paragraph layout */
 main {
-    padding: 30px; 
-    min-height: 1200px;
 }
 
 /* the styles for section*/
 section {
-    width: 100%;
+    width: 67%;
+    min-height:300px;
     float: left;
-    padding-bottom: 40px;
+    background-color: rgb(143, 112, 159);
+   /* padding: 5px  20px  5px  20px; */
 }
 
-
 div {
-    img {
-        width: 50%;
-        max-width: 300px;
-        height:auto;
-        object-fit: contain;
-    }
+    width: 100%;
     float: left;
+    background-color: lightslategray;
  /*   padding: 5px  20px  5px  20px; */
 }
 
+aside {
+    width: 33%;
+    min-height:300px;
+    float: right;
+    background-color: olivedrab;
+  /*  padding: 5px  30px  5px  20px;  */
+}
 
 /* the styles for footer*/
 footer {
     position:fixed;
-    width: 100%;
+    width: 80%;
     bottom: 0;
-    background-color:rgb(67, 113, 113);
+    background-color: rgb(138, 95, 160);
     color:white;
-    padding-top: 5pt;  
+    padding-top: 5pt;
     padding-bottom: 15pt;
     text-align: center;
     font-style: italic;
